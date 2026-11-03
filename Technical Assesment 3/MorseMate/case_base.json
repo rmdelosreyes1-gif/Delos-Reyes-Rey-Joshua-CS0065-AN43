@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "problem": {
+      "letter": "A",
+      "answer": "-.",
+      "error_type": "reversed",
+      "confidence": "low"
+    },
+    "solution": {
+      "strategy": "read_order",
+      "feedback": "A is .-: dot then dash. Read the symbols from left to right.",
+      "practice": "Write A (.-) three times in the correct order."
+    }
+  },
+  {
+    "id": 2,
+    "problem": {
+      "letter": "S",
+      "answer": "..",
+      "error_type": "missing_symbol",
+      "confidence": "low"
+    },
+    "solution": {
+      "strategy": "count_symbols",
+      "feedback": "S is ...: three dots. Your answer is missing one dot.",
+      "practice": "Count one, two, three while writing the dots for S."
+    }
+  },
+  {
+    "id": 3,
+    "problem": {
+      "letter": "E",
+      "answer": "-",
+      "error_type": "wrong_symbols",
+      "confidence": "medium"
+    },
+    "solution": {
+      "strategy": "compare_symbols",
+      "feedback": "E is a single dot (.), not a dash (-).",
+      "practice": "Compare E (.) with T (-), then write E again."
+    }
+  },
+  {
+    "id": 4,
+    "problem": {
+      "letter": "N",
+      "answer": "-..",
+      "error_type": "extra_symbol",
+      "confidence": "medium"
+    },
+    "solution": {
+      "strategy": "count_symbols",
+      "feedback": "N is -.: two symbols. Your answer has one extra dot.",
+      "practice": "Count the two marks in N (-.), then write it again."
+    }
+  },
+  {
+    "id": 5,
+    "problem": {
+      "letter": "O",
+      "answer": "---",
+      "error_type": "correct",
+      "confidence": "high"
+    },
+    "solution": {
+      "strategy": "reinforce",
+      "feedback": "Correct! O is three dashes (---).",
+      "practice": "Cover the answer and write O again from memory."
+    }
+  },
+  {
+    "id": 6,
+    "problem": {
+      "letter": "E",
+      "answer": "--.",
+      "error_type": "extra_symbol",
+      "confidence": "low"
+    },
+    "solution": {
+      "strategy": "count_symbols",
+      "feedback": "Your answer: '--.'. Correct Morse code for E: '.'. Your answer has 2 extra symbol(s). E needs 1 symbol(s); compare the dots and dashes too. A dot (.) is short; a dash (-) is long. Say each mark slowly.",
+      "practice": "Count each mark in ., then write E again."
+    }
+  }
+]

@@ -1,0 +1,28 @@
+MORSEMATE - A Case-Based Morse Code Tutor
+
+Stored cases before this attempt: 5
+New problem: letter=N, answer=.-, confidence=medium
+Diagnosis: reversed
+
+Similarity ranking (error 60 + letter 25 + confidence 15):
+1. C001:  60% | letter=A | error=reversed | confidence=low
+2. C004:  40% | letter=N | error=extra_symbol | confidence=medium
+3. C003:  15% | letter=E | error=wrong_symbols | confidence=medium
+4. C002:   0% | letter=S | error=missing_symbol | confidence=low
+5. C005:   0% | letter=O | error=correct | confidence=high
+
+Most relevant past case: C001
+Retrieved strategy: read_order
+
+Personalized feedback:
+Your answer: '.-'. Correct Morse code for N: '-.'. You reversed the order. Read left to right: dash then dot. Say the pattern aloud, then try once without looking.
+Practice: Write N (-.) three times, keeping the same order.
+
+New case saved: C006
+Updated case list (6 cases):
+C001: letter=A, answer=-., error=reversed, confidence=low
+C002: letter=S, answer=.., error=missing_symbol, confidence=low
+C003: letter=E, answer=-, error=wrong_symbols, confidence=medium
+C004: letter=N, answer=-.., error=extra_symbol, confidence=medium
+C005: letter=O, answer=---, error=correct, confidence=high
+C006: letter=N, answer=.-, error=reversed, confidence=medium
